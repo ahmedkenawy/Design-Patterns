@@ -34,9 +34,19 @@
 
 ## **Behavioral Patterns**
 
- **1.  Chain of Responsibility**
+ ### 1. Chain of Responsibility
+
  
+
+***Pseudocode***
  
  
 ![chain](https://user-images.githubusercontent.com/50085672/180303015-94c0d78c-88c4-470f-9917-22101ae9f164.png)
 
+
+
+ ***pitfalls***
+
+
+ - [ ] efficiency Issue in Long Chains!
+ - [ ] No guarantee for request handling!
