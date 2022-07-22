@@ -49,7 +49,7 @@
 
  
 
-***a- Pseudocode***
+***a- UML class and sequence diagram***
  
  
 ![chain](https://user-images.githubusercontent.com/50085672/180303015-94c0d78c-88c4-470f-9917-22101ae9f164.png)
