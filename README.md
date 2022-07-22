@@ -21,19 +21,11 @@
 
 ## Why Design Patterns?
 
+    a- avoid reinventing the wheel
 
-    The truth is that you might manage to work as a programmer for many years without knowing about a single pattern.
-    A lot of people do just that. Even in that case, though, you might be implementing some patterns without even knowing it.
-    So why would you spend time learning them?
-
-    a- Design patterns are a toolkit of tried and tested solutions to common problems in software design. 
-    Even if you never encounter these problems
-    knowing patterns is still useful because it teaches you how to solve all sorts of problems 
-    using principles of object-oriented design.
-
-    b- Design patterns define a common language that you and your teammates can use to communicate more efficiently. 
-    You can say, “Oh, just use a Singleton for that,” and everyone will understand the idea behind your suggestion. 
-    No need to explain what a singleton is if you know the pattern and its name.
+    b- communication between software Engineer using commom Vocabulary
+    
+    c-Leverage the Power of Object Oriented Design
 
 ## Types of Design Patterns
 
@@ -45,7 +37,8 @@
 		 take care of effective communication and the assignment of responsibilities between objects.
  ***- Structural Design Patterns***
 		 
-		explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+		explain how to assemble objects and classes into larger structures
+		while keeping these structures flexible and efficient.
  ***- Creational Design Patterns***
 				 
 		provide object creation mechanisms that increase flexibility and reuse of existing code.
@@ -56,15 +49,42 @@
 
  
 
-***Pseudocode***
+***a- Pseudocode***
  
  
 ![chain](https://user-images.githubusercontent.com/50085672/180303015-94c0d78c-88c4-470f-9917-22101ae9f164.png)
 
 
 
- ***pitfalls***
 
 
- - [ ] efficiency Issue in Long Chains!
- - [ ] No guarantee for request handling!
+
+
+
+ ***b- What problems can the Chain of Responsibility design pattern solve?***
+ 	
+  	-  Coupling the sender of a request to its receiver should be avoided.
+  	-  It should be possible that more than one receiver can handle a request.
+
+
+***c- What solution does the Chain of Responsibility design pattern describe?***
+	
+	Define a chain of receiver objects having the responsibility, depending on run-time conditions
+	to either handle a request or forward it to the next receiver on the chain (if any).
+	This enables us to send a request to a chain of receivers without having to know which one handles the request. 
+	The request gets passed along the chain until a receiver handles the request. 
+	The sender of a request is no longer coupled to a particular receiver.
+	
+
+ ***d- pitfalls***
+
+
+ 	-  efficiency Issue in Long Chains!
+ 	-  No guarantee for request handling!
+
+ ***e- Code Example***
+ 
+ 	 IN PROJECT
+	 
+	 
+### 2. Observer Pattern
