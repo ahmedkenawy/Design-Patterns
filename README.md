@@ -88,3 +88,32 @@
 	 
 	 
 ### 2. Observer Pattern
+
+***a- UML class and sequence diagram***
+
+![observer](https://user-images.githubusercontent.com/50085672/180453348-3f11135e-57ed-4308-9284-284f49f8020c.png)
+
+
+***b- What problems can the Observer design pattern solve?***
+
+	- A one-to-many dependency between objects should be defined without making the objects tightly coupled.
+	- It should be ensured that when one object changes state, an open-ended number of dependent objects are updated automatically.
+	- It should be possible that one object can notify an open-ended number of other objects.
+
+***c- What solution does the Observer design pattern describe?***
+
+	- Define Subject and Observer objects.
+	- so that when a subject changes state, all registered observers are notified
+	  and updated automatically (and probably asynchronously).
+
+ ***d- pitfalls***
+ 
+ 	- Observable doesn't know which observer update its state
+	- Large Updates
+	- Difficult debugging
+ 
+ 
+ 
+ ***e- Code Example***
+ 
+ 	 IN PROJECT
