@@ -1,6 +1,6 @@
 package com.a7medkenawy.designpatternslessons.behavioral.command
 
-
+//receiver
 class Receiver(private val id: Int) {
     private var money = 0
     fun sendMoney(money: Int) {
@@ -9,16 +9,20 @@ class Receiver(private val id: Int) {
     }
 }
 
+//command
 interface Command {
     fun execute()
 }
 
+
+//concrete command
 class SendMoney(private val receiver: Receiver) : Command {
     override fun execute() {
         receiver.sendMoney(500)
     }
 }
 
+//concrete command
 class SendMoneyToAll(private val listOfReceiver: List<Receiver>) : Command {
     override fun execute() {
         listOfReceiver.forEach { receiver ->
@@ -27,6 +31,7 @@ class SendMoneyToAll(private val listOfReceiver: List<Receiver>) : Command {
     }
 }
 
+//Invoker
 class Invoker() {
     fun executeCommand(command: Command) {
         command.execute()
