@@ -117,3 +117,37 @@
  ***e- Code Example***
  
  	 IN PROJECT
+
+
+### 3. Command Pattern
+
+
+***a- UML class and sequence diagram***
+
+![command](https://user-images.githubusercontent.com/50085672/180668082-361e5d39-fc44-464c-ac3c-5a59380a8f2c.jpg)
+
+
+***b- What problems can the Observer design pattern solve?***
+
+	- Coupling the invoker of a request to a particular request should be avoided. That is, hard-wired requests should be avoided.
+	- It should be possible to configure an object (that invokes a request) with a request.
+
+
+***c- What solution does the Observer design pattern describe?***
+
+	- Define separate (command) objects that encapsulate a request.
+	- A class delegates a request to a command object instead of implementing a particular request directly.
+	
+	
+	
+ ***d- pitfalls***
+ 
+ 	- There are a high number of classes and objects working together to achieve a goal. 
+	       Application developers need to be careful developing these classes correctly.
+	- Every individual command is a ConcreteCommand ...
+ 
+ 
+ 
+ ***e- Code Example***
+ 
+ 	 IN PROJECT
