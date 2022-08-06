@@ -153,7 +153,7 @@
  	 IN PROJECT
 
 
-### 3. Interpreter Pattern
+### 4. Interpreter Pattern
 
 ***a- UML Diagram***
 
@@ -180,3 +180,33 @@
  ***e- Code Example***
  
  	 IN PROJECT
+
+
+### 5. Iterator Pattern
+
+***a- UML Diagram***
+
+![iterator pattern](https://user-images.githubusercontent.com/50085672/183257875-8eb98a98-a25a-41ab-b987-af7f82c69348.PNG)
+
+
+***b- What problems can the Iterator design pattern solve?***
+
+	- The elements of an aggregate object should be accessed and traversed without exposing its representation (data structures).
+	- New traversal operations should be defined for an aggregate object without changing its interface.
+
+
+
+***c- What solution does the Iterator design pattern describe?***
+
+	- Define a separate (iterator) object that encapsulates accessing and traversing an aggregate object.
+	- Clients use an iterator to access and traverse an aggregate without knowing its representation (data structures).
+	
+***d- pitfalls***
+
+	- If your software simply interacts with basic collections, using the Iterator Design pattern may be an overkill in that case.
+	- Explicitly traversing items of some specialized collections may be more competent than using an iterator design pattern.
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
+
