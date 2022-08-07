@@ -49,7 +49,7 @@
 
  
 
-***a- UML class and sequence diagram***
+***a- UML Diagram***
  
  
 ![chain](https://user-images.githubusercontent.com/50085672/180303015-94c0d78c-88c4-470f-9917-22101ae9f164.png)
@@ -89,7 +89,7 @@
 	 
 ### 2. Observer Pattern
 
-***a- UML class and sequence diagram***
+***a- UML Diagram  ***
 
 ![observer](https://user-images.githubusercontent.com/50085672/180453348-3f11135e-57ed-4308-9284-284f49f8020c.png)
 
@@ -122,7 +122,7 @@
 ### 3. Command Pattern
 
 
-***a- UML class and sequence diagram***
+***a- UML Diagram***
 
 ![command](https://user-images.githubusercontent.com/50085672/180668082-361e5d39-fc44-464c-ac3c-5a59380a8f2c.jpg)
 
@@ -151,3 +151,62 @@
  ***e- Code Example***
  
  	 IN PROJECT
+
+
+### 4. Interpreter Pattern
+
+***a- UML Diagram***
+
+![interpreter UMLDiagram](https://user-images.githubusercontent.com/50085672/183257440-6bd249a9-e35a-4d77-b757-fb6169ebc2e8.png)
+
+
+***b- What problems can the Interpreter design pattern solve?***
+
+	- A grammar for a simple language should be defined
+	- so that sentences in the language can be interpreted.
+	
+	
+***c- What solution does the Interpreter design pattern describe?***
+
+	- Define a grammar for a simple language by defining an Expression class hierarchy and implementing an interpret() operation.
+	- Represent a sentence in the language by an abstract syntax tree (AST) made up of Expression instances.
+	- Interpret a sentence by calling interpret() on the AST.
+
+***d- pitfalls***
+
+	- Complex grammars are difficult to maintain as there will be lot of terminal classes.
+	
+
+ ***e- Code Example***
+ 
+ 	 IN PROJECT
+
+
+### 5. Iterator Pattern
+
+***a- UML Diagram***
+
+![iterator pattern](https://user-images.githubusercontent.com/50085672/183257875-8eb98a98-a25a-41ab-b987-af7f82c69348.PNG)
+
+
+***b- What problems can the Iterator design pattern solve?***
+
+	- The elements of an aggregate object should be accessed and traversed without exposing its representation (data structures).
+	- New traversal operations should be defined for an aggregate object without changing its interface.
+
+
+
+***c- What solution does the Iterator design pattern describe?***
+
+	- Define a separate (iterator) object that encapsulates accessing and traversing an aggregate object.
+	- Clients use an iterator to access and traverse an aggregate without knowing its representation (data structures).
+	
+***d- pitfalls***
+
+	- If your software simply interacts with basic collections, using the Iterator Design pattern may be an overkill in that case.
+	- Explicitly traversing items of some specialized collections may be more competent than using an iterator design pattern.
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
+
