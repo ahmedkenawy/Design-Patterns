@@ -278,7 +278,8 @@
 
 ***a- UML Diagram***
 
-![State-Design-Pattern-Diagram](https://user-images.githubusercontent.com/50085672/183318552-af2703be-ff7c-4df6-a140-a82190ed59aa.png)
+
+![State_Design_Pattern_UML_Class_Diagram svg](https://user-images.githubusercontent.com/50085672/183318920-0364660a-0f9c-4609-98ec-088563fe9657.png)
 
 
 ***b- What problems can the State design pattern solve?***
