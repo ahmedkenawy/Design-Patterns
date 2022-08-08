@@ -310,3 +310,21 @@
 ***a- UML Diagram***
 
 ![templete-method-diagram](https://user-images.githubusercontent.com/50085672/183319235-ee9bb1dc-9316-4229-9925-34ea6c79a2ac.png)
+
+
+***b- What problems can the Template design pattern solve?***
+
+	In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. 
+	Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class. 
+	This pattern comes under behavior pattern category.
+
+
+***c- pitfalls***
+	
+
+	- Debugging and understanding the sequence of flow in the Template Method pattern can be confusing at times. ...
+	- Maintenance of the template framework can be a problem as changes at any level (low-level or high-level) can disturb the implementation.
+
+***d- Code Example***
+ 
+ 	 IN PROJECT
