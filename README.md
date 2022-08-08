@@ -297,9 +297,16 @@
 
 ***d- pitfalls***
 	
-	- more Classes ->More Code
+	- more Classes -> More Code
 
 
 ***e- Code Example***
  
  	 IN PROJECT
+
+
+### 9. Template Pattern
+	
+***a- UML Diagram***
+
+![templete-method-diagram](https://user-images.githubusercontent.com/50085672/183319235-ee9bb1dc-9316-4229-9925-34ea6c79a2ac.png)
