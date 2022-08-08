@@ -239,3 +239,38 @@
 ***e- Code Example***
  
  	 IN PROJECT
+
+
+### 7. Memento Pattern
+
+***a- UML Diagram***
+
+![mem](https://user-images.githubusercontent.com/50085672/183317969-13dfc2fc-f578-408b-9491-b286c0b8c77f.png)
+
+![memento](https://user-images.githubusercontent.com/50085672/183317978-c2134bc9-d3d8-4f98-af77-0cfcc20eab52.PNG)
+
+***b- What problems can the Memento design pattern solve?***
+
+	Memento pattern is used to restore state of an object to a previous state. Memento pattern falls under behavioral pattern category.
+	Memento pattern uses three actor classes. Memento contains state of an object to be restored. 
+	Originator creates and stores states in Memento objects and Caretaker object is responsible to restore object state from Memento. 
+	We have created classes Memento, Originator and CareTaker.
+
+***c- What solution does the Memento design pattern describe?***
+
+	- saving its internal state to a (memento) object and
+	- restoring to a previous state from a (memento) objec
+	
+
+***d- pitfalls***
+
+	- The application will consume a huge amount of RAM if the user creates mementos many times.
+
+	- The extra time to save the states will reduce the overall performance of the application.
+	
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
+
+	
