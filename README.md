@@ -274,3 +274,31 @@
  	 IN PROJECT
 
 	
+### 8. State Pattern
+
+***a- UML Diagram***
+
+![State-Design-Pattern-Diagram](https://user-images.githubusercontent.com/50085672/183318552-af2703be-ff7c-4df6-a140-a82190ed59aa.png)
+
+
+***b- What problems can the State design pattern solve?***
+
+	- An object should change its behavior when its internal state changes.
+	- State-specific behavior should be defined independently. That is, adding new states should not affect the behavior of existing states.
+
+
+***c- What solution does the State design pattern describe?***
+
+	- Define separate (state) objects that encapsulate state-specific behavior for each state. That is, define an interface (state)
+	  for performing state-specific behavior, and define classes that implement the interface for each state.
+	- A class delegates state-specific behavior to its current state object instead of implementing state-specific behavior directly.
+	
+
+***d- pitfalls***
+	
+	- more Classes ->More Code
+
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
