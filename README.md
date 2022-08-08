@@ -210,3 +210,32 @@
  
  	 IN PROJECT
 
+
+### 6. Mediator Pattern
+
+***a- UML Diagram***
+
+![Mediator_pattern (1)](https://user-images.githubusercontent.com/50085672/183317514-0261444a-421a-4bdc-9e64-0f44a7d76361.png)
+![Mediator_pattern](https://user-images.githubusercontent.com/50085672/183317539-719a4d32-6773-4c02-8373-e4282347b593.png)
+
+
+***b- What problems can the Mediator design pattern solve?***
+
+	- Tight coupling between a set of interacting objects should be avoided.
+	- It should be possible to change the interaction between a set of objects independently.
+
+
+***c- What solution does the Mediator design pattern describe?***
+
+	- Define a separate (mediator) object that encapsulates the interaction between a set of objects.
+	- Objects delegate their interaction to a mediator object instead of interacting with each other directly.
+	
+***d- pitfalls***
+	
+	
+	- The Mediator often needs to be very intimate with all the different classes, And it makes it really complex.
+	- Can make it difficult to maintain.
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
