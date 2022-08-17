@@ -210,3 +210,121 @@
  
  	 IN PROJECT
 
+
+### 6. Mediator Pattern
+
+***a- UML Diagram***
+
+![Mediator_pattern (1)](https://user-images.githubusercontent.com/50085672/183317514-0261444a-421a-4bdc-9e64-0f44a7d76361.png)
+![Mediator_pattern](https://user-images.githubusercontent.com/50085672/183317539-719a4d32-6773-4c02-8373-e4282347b593.png)
+
+
+***b- What problems can the Mediator design pattern solve?***
+
+	- Tight coupling between a set of interacting objects should be avoided.
+	- It should be possible to change the interaction between a set of objects independently.
+
+
+***c- What solution does the Mediator design pattern describe?***
+
+	- Define a separate (mediator) object that encapsulates the interaction between a set of objects.
+	- Objects delegate their interaction to a mediator object instead of interacting with each other directly.
+	
+***d- pitfalls***
+	
+	
+	- The Mediator often needs to be very intimate with all the different classes, And it makes it really complex.
+	- Can make it difficult to maintain.
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
+
+
+### 7. Memento Pattern
+
+***a- UML Diagram***
+
+![mem](https://user-images.githubusercontent.com/50085672/183317969-13dfc2fc-f578-408b-9491-b286c0b8c77f.png)
+
+![memento](https://user-images.githubusercontent.com/50085672/183317978-c2134bc9-d3d8-4f98-af77-0cfcc20eab52.PNG)
+
+***b- What problems can the Memento design pattern solve?***
+
+	Memento pattern is used to restore state of an object to a previous state. Memento pattern falls under behavioral pattern category.
+	Memento pattern uses three actor classes. Memento contains state of an object to be restored. 
+	Originator creates and stores states in Memento objects and Caretaker object is responsible to restore object state from Memento. 
+	We have created classes Memento, Originator and CareTaker.
+
+***c- What solution does the Memento design pattern describe?***
+
+	- saving its internal state to a (memento) object and
+	- restoring to a previous state from a (memento) objec
+	
+
+***d- pitfalls***
+
+	- The application will consume a huge amount of RAM if the user creates mementos many times.
+
+	- The extra time to save the states will reduce the overall performance of the application.
+	
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
+
+	
+### 8. State Pattern
+
+***a- UML Diagram***
+
+
+![State_Design_Pattern_UML_Class_Diagram svg](https://user-images.githubusercontent.com/50085672/183318920-0364660a-0f9c-4609-98ec-088563fe9657.png)
+
+
+***b- What problems can the State design pattern solve?***
+
+	- An object should change its behavior when its internal state changes.
+	- State-specific behavior should be defined independently. That is, adding new states should not affect the behavior of existing states.
+
+
+***c- What solution does the State design pattern describe?***
+
+	- Define separate (state) objects that encapsulate state-specific behavior for each state. That is, define an interface (state)
+	  for performing state-specific behavior, and define classes that implement the interface for each state.
+	- A class delegates state-specific behavior to its current state object instead of implementing state-specific behavior directly.
+	
+
+***d- pitfalls***
+	
+	- more Classes -> More Code
+
+
+***e- Code Example***
+ 
+ 	 IN PROJECT
+
+
+### 9. Template Pattern
+	
+***a- UML Diagram***
+
+![templete-method-diagram](https://user-images.githubusercontent.com/50085672/183319235-ee9bb1dc-9316-4229-9925-34ea6c79a2ac.png)
+
+
+***b- What problems can the Template design pattern solve?***
+
+	In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. 
+	Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class. 
+	This pattern comes under behavior pattern category.
+
+
+***c- pitfalls***
+	
+
+	- Debugging and understanding the sequence of flow in the Template Method pattern can be confusing at times. ...
+	- Maintenance of the template framework can be a problem as changes at any level (low-level or high-level) can disturb the implementation.
+
+***d- Code Example***
+ 
+ 	 IN PROJECT
